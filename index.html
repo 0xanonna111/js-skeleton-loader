@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Skeleton Loader</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="card">
+    <div class="skeleton img" id="s-img"></div>
+    <div class="skeleton text" id="s-title"></div>
+    <div class="skeleton text short" id="s-desc"></div>
+
+    <div class="content hidden" id="content">
+      <img src="https://picsum.photos/300/180" />
+      <h3>Loaded Content</h3>
+      <p>This content appeared after loading.</p>
+    </div>
+
+    <button onclick="loadData()">Load Data</button>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
